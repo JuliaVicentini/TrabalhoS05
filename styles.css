@@ -14,6 +14,27 @@ body {
   padding: 20px;
 }
 
+body.light-theme {
+  background: white;
+  color: black;
+}
+
+body.dark-theme {
+  background: #121212;
+  color: white;
+}
+
+body.blue-theme {
+  background: #cce7ff;
+  color: #003366;
+}
+
+#theme-toggle {
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
 /* Estilização do cabeçalho */
 .header {
   display: flex;
