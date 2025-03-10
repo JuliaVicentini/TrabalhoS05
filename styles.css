@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; 
+}
+
+/* Configuração do corpo da página */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+body.light-theme {
+  background: white;
+  color: black;
+}
+
+body.dark-theme {
+  background: #121212;
+  color: white;
+}
+
+body.blue-theme {
+  background: #cce7ff;
+  color: #003366;
+}
+
+#theme-toggle {
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Estilização do cabeçalho */
+.header {
+  display: flex;
+  justify-content: space-between; /* Distribui os elementos igualmente */
+  width: 100%;
+  max-width: 400px;
+  background-color: rgb(245, 244, 167); 
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+/* Estilização dos retângulos dentro do cabeçalho */
+.box {
+  width: 80px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* Define a largura do conteúdo */
+.content {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+/* MENSAGENS */
+.mensagens {
+  margin-top: 10px;
+}
+
+.mensagem {
+  display: flex;
+  align-items: center;
+  background-color: rgb(232, 175, 247); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização do ícone ao lado das mensagens */
+.icon-box {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* AULAS */
+.aulas {
+  margin-top: 10px;
+}
+
+.aula {
+  background-color: rgb(199, 243, 181); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Ícones dentro das aulas */
+.icons {
+  display: flex;
+  gap: 5px;
+}
+
+/* NOTÍCIAS */
+.noticias {
+  background-color: rgb(255, 172, 172);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Caixa grande da notícia */
+.large-box {
+  width: 100%;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* INDICADOR */
+.indicador {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Pontos do indicador */
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0 5px;
+}
